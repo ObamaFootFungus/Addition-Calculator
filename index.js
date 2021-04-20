@@ -7,7 +7,7 @@ var secondNum = Number(readline.question("What is the second number? "));
 //Iinitalize variables
 var z;
 var y;
-var x; 
+var x;
 
 //Call the calculate function with the provided integers
 Calculate(firstNum, secondNum);
@@ -17,14 +17,14 @@ function Calculate(a, b) {
     if (a > b) {
         x = a + b
         x++;
-        y = x - (a^2/(b + 4))
+        y = x - (a ^ 2 / (b + 4))
         z = y * x * a * b
         if (y > x) {
             x = eval(z);
             y++;
             console.log(eval(a + b));
         } else {
-            z = y^2 - a / 5(4 -a);
+            z = y ^ 2 - a / 5(4 - a);
             while (z <= a) {
                 z++;
             }
